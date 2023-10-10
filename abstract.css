@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* navbar css */
+.navbar {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 60px;
+    align-items: center;
+}
+.navbar a{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    margin: 5px;
+}
+.logoText{
+    border-right: 2px solid white;
+    padding-right: 20px;
+}
+.logoText:hover{
+    color: gainsboro;
+}
+.help:hover{
+    text-decoration: underline;
+}
+.submitBtn,.signIn{
+    font-size: 25px;
+    margin: 0 20px;
+    height: 50px;
+    width: 250px;
+    cursor: pointer;
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    border-radius: 10%;
+    font-weight: 200;
+}
+.submitBtn:hover{
+    color: grey;
+}
+.signIn{
+    width: 150px;
+    background-color: #4C5FD5;
+}
+.signIn:hover{
+    background-color: white;
+    color: black;
+}
+/* hersection css */
+.heroSection{
+    text-align: center;
+    background-color: #dadbf1;
+    padding: 150px;
+}
+.heading{
+    font-size: 5em;
+    margin-bottom: 20px;
+}
+@media(min-width:400px) and (max-width:600px){
+    .heading{
+        font-size: 40px;
+    }
+}
+.searchBox{
+    width: 70%;
+    padding: 20px;
+    
+}
+/* middlecontainer css */
+.middleContainer{
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+}
+.leftSection{
+width: 500px;
+}
+.rightSection{
+    width: 500px;
+}
+.leftSection div{
+    margin: 50px;
+}
+.rightSection div{
+    margin: 50px;
+}
+.middleContainer img{
+    float: left;
+    width: 80px;
+    margin-right: 20px;
+    transition: width 0.5s ease-in-out;
+}
+.middleContainer img:hover{
+    width: 90px;
+}
+
+/* footer section */
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    background-color: black;
+    padding: 0 0 50px 0;
+}
+.footer div a{
+    color: white;
+    margin: 5px 0;
+    display: block;
+    text-decoration: none;
+}
+.footer div a:hover{
+    text-decoration: underline;
+}
+.footerColumn{
+    margin: 40px;
+}
+.footerColumn h3{
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+.footerColumn div h4{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.rightFooter{
+    align-self: flex-end;
+    margin-left: 200px;
+    font-size: 20px;
+}
